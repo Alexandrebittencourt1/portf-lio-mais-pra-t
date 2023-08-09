@@ -1,0 +1,130 @@
+html {
+    /*suavização scrool*/
+    scroll-behavior: smooth;
+}
+/*corpo da aplicação*/
+body {
+/* background */
+background-color: #f2e7dc;
+
+color: #0d000d;
+text-align: justify;
+
+/* Alinhamento e Tamanho*/
+/* 1rem equivale a 16px, tela grande = font-size 16px , tela-media = font-size: 15px, tela-pequena = font-size: 14px*/
+width: 98%;
+margin: auto;
+}
+/*seções de livros*/
+section {
+    /*espaçamento dentro da seção*/
+ padding: 64px 256px; /*superior  direito inferior esquerdo automatico*/
+
+/*padding: 64px 256px  64px 256px ou
+padding-left: 256px;
+padding-right: 256px;
+padding-bottom: 64px;
+padding-top: 64px;*/
+}
+
+/*tabela*/
+table {
+    /*largura*/
+    width: 100%;
+}
+td {
+    /*background*/
+    background-color: #a9d9d0;
+}
+td,
+th{ 
+    /*borda em formato shortand*/
+    /*border-width: 3px;
+    border-style: solid;
+    border-color: #0d000d;
+    border-radius: 10px;*/
+    border: #000 solid 1px;
+    border-radius: 4px;
+    /*alinhamento de texto*/
+    text-align: center;  
+}
+tr {
+    /*backgraund*/
+    background-color: #038c7f;
+}
+
+/*titulo, texto e parágrafos*/
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+h1,
+h2,
+h3  {
+   text-align: center;
+}
+h3{
+    color: #000;
+}
+/*links*/
+a:link {
+    color: #cb7621;/*link normal*/
+}
+a:visited {
+    color: #95bfb8;/*link visitado*/
+}
+a:hover {
+    color: #025454;/*mouse sobre o link*/
+}
+a:active{
+    color: #0d000d;/*link selecionado*/
+}
+/*imagem*/
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;   
+}
+
+/*classes e IDS*/
+.bookTitle {
+    background-color: #a9d9d0;
+    color: #027373;
+    text-align: center;
+}
+
+#sectionHP,
+#sectionPJ, 
+#sectionOG {
+    background-color: #a9d9d0;
+}
+#header {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 0px;   
+}
+#yourLibrary {
+    text-indent: 0px;
+    text-align: center;
+}
+#sumary {
+     background-color: #038c7f;
+     color: #f2e7dc;
+     padding: 20px;
+     margin-bottom: 50px;
+     border-radius: 0 0 50px 50px ;
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+/*roda pé*/
+footer {
+    background-color: #038c7f;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
